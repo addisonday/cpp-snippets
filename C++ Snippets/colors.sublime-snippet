@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+// Define colors of terminal output
+#define RESET   "\033[0m"
+#define RED     "\033[1m\033[31m"  // Red
+#define GREEN   "\033[1m\033[32m"  // Green
+#define BLUE    "\033[1m\033[34m"  // Blue
+#define YELLOW  "\033[1m\033[33m"  // Yellow
+
+$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tclr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.c++</scope>
+</snippet>

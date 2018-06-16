@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1: objectName } ${2: name }[${3: size }];
+$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ryo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.c++</scope>
+</snippet>
