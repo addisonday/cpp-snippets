@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
-enum ${1: name } { ${2: values } };
+enum ${1: name } {
+  ${2: values }
+};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>enum</tabTrigger>
